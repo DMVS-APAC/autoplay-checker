@@ -1,0 +1,21 @@
+
+header{
+    height: 90px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+    flex: 1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+  }
