@@ -15,7 +15,13 @@ const addAnchorlink = (text)=> {
 }
 
 const runTests = () => {
+
+
     tests.reduce((testSequence, test) => {
+        let tempTr = $(test.selector);
+        tempTr.getElementsByTagName("td")[1].innerHTML = "testing...";
+        tempTr.getElementsByTagName("td")[2].innerHTML = "...";
+
         return testSequence
         .then(() => {
             

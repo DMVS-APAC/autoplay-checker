@@ -1,3 +1,14 @@
+@font-face {
+    font-family: ABCFavorit;
+    src: url(//corpostatic.dailymotion.com/corporate-cms-release-assets-prod/8bb40080/app/themes/dailymotion/front/build/fonts/ABCFavorit/ABCFavorit-Regular.woff2) format("woff2"),url(//corpostatic.dailymotion.com/corporate-cms-release-assets-prod/8bb40080/app/themes/dailymotion/front/build/fonts/ABCFavorit/ABCFavorit-Regular.woff) format("woff"),url(//corpostatic.dailymotion.com/corporate-cms-release-assets-prod/8bb40080/app/themes/dailymotion/front/build/fonts/ABCFavorit/ABCFavorit-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap
+}
+
+body{
+    font-family: ABCFavorit,Retina,Arial,sans-serif;
+    color: #0a0a0a;
+}
 
 header{
     height: 90px;
@@ -10,12 +21,30 @@ header{
     margin: auto;
     flex: 1;
 }
+
+.logo{
+    font-size: 20px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #0a0a0a;
+    font-style: italic;
+}
+.testbtn{
+    float: right;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+}
+
+
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px;
     text-align: left;
 }
 th, td {
     padding: 10px;
-  }
+    border-bottom: 1px solid #e5e5e5;
+}
